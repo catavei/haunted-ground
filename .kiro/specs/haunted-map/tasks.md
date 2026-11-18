@@ -12,7 +12,7 @@ Satellite ground-motion data (EGMS) was dropped on 2026-11-18; it is not in this
 
 ## Phase A — Foundation and data (8.5 h)
 
-- [ ] **1. Project and steering set-up (1 h).** New empty repo, add the steering files, create the Kiro spec from these drafts, set up a test runner and a lint step. *Done:* a build and a test command run clean on an empty app.
+- [x] **1. Project and steering set-up (1 h).** New empty repo, add the steering files, create the Kiro spec from these drafts, set up a test runner and a lint step. *Done:* a build and a test command run clean on an empty app.
 - [ ] **2. Fetch the AMCCRS list (1.5 h).** Download the table as the site serves it, save the raw file and a 30-row fixture, record the table date, and normalise class text into the fixed set of labels. *Done:* tests pass on all the spellings in the fixture; a report shows rows per class. (R2.3)
 - [ ] **3. OSM extract and address matching (3 h).** Get the Bucharest buildings and address points, normalise streets and numbers, match each list row (outline tag, address point inside an outline, nearest within 15 m, geocoder only for the leftovers), write confidence and method. Time-box: stop at 3 h and report the rate. *Done:* match report with rates by method and 20 hand-checked buildings. (R1.6, R2.6)
 - [ ] **4. Build outputs (1 h).** Write `buildings.geojson`, the search index, `sources.json` and `build-report.json`. *Done:* schema check passes; total size within budget (≤ 3 MB transferred on first load). (R1, R8.1)
