@@ -1,0 +1,112 @@
+{
+  "app": {
+    "title": "Haunted Ground"
+  },
+  "a11y": {
+    "skipToContent": "Skip to content"
+  },
+  "nav": {
+    "tour": "Haunted tour",
+    "sources": "Sources",
+    "disclaimer": "Disclaimer",
+    "language": "RO",
+    "calm": "Calm mode"
+  },
+  "search": {
+    "label": "Search address",
+    "placeholder": "Street and number…",
+    "noResults": "Not found on the AMCCRS list. That does not mean the building is safe. See what to do next.",
+    "unlocated": "We could not place this address on the map."
+  },
+  "map": {
+    "tileError": "Map tiles could not load. Use the search box to look up buildings by address.",
+    "locatedCount": "{located} of {total} listed buildings located on the map."
+  },
+  "card": {
+    "close": "Close",
+    "classLabel": "Risk class",
+    "levelLabel": "Haunting level",
+    "sourceLabel": "Source",
+    "yearLabel": "Year as published by AMCCRS",
+    "yearUnknown": "Year unknown",
+    "heightLabel": "Height regime",
+    "flatsLabel": "Number of flats",
+    "locationApproximate": "Location approximate",
+    "unlocated": "We could not place this address on the map.",
+    "disclaimerLink": "Disclaimer",
+    "shareButton": "Share",
+    "amccrsLink": "View on AMCCRS list"
+  },
+  "tour": {
+    "close": "Close",
+    "title": "Haunted Tour",
+    "nearMe": "Near me",
+    "bySector": "By sector",
+    "locationDenied": "Location access was denied. Choose a sector instead.",
+    "locationNotStored": "Your location is used in the browser only and is never sent anywhere.",
+    "disclaimer": "This tour is for curiosity, not for choosing where to live or what to buy.",
+    "stop": "Stop {n}",
+    "reason": "{class} · {flats} flats · built {year}",
+    "next": "Next stop",
+    "prev": "Previous stop"
+  },
+  "levels": {
+    "restless": {
+      "name": "Restless",
+      "plain": "Class RsI / Urgency category"
+    },
+    "uneasy": {
+      "name": "Uneasy",
+      "plain": "Class RsII"
+    },
+    "stirring": {
+      "name": "Stirring",
+      "plain": "Class RsIII"
+    },
+    "whispers": {
+      "name": "Whispers",
+      "plain": "Class RsIV"
+    },
+    "mended": {
+      "name": "Mended",
+      "plain": "Consolidated (as listed)"
+    },
+    "unrated": {
+      "name": "Unrated",
+      "plain": "Listed, no class"
+    },
+    "unlisted": {
+      "name": "Not on the list",
+      "plain": "Not on the AMCCRS list"
+    }
+  },
+  "legend": {
+    "title": "Haunting levels",
+    "notOnList": "Not on the list. Not a safety claim.",
+    "locatedLine": "{located} of {total} located"
+  },
+  "disclaimer": {
+    "banner": "This is a Halloween-themed view of public data. It is not an official or technical assessment and not safety advice. A building missing from the list is not proof it is safe. Consult a certified structural expert before buying or renting.",
+    "dismiss": "Dismiss",
+    "link": "Full disclaimer"
+  },
+  "sources": {
+    "title": "Sources",
+    "licence": "Licence",
+    "attribution": "Attribution",
+    "dataDate": "Data as of",
+    "termsNotPublished": "Terms not published",
+    "matchingExplanation": "Addresses were matched to map locations using OSM address tags (outline tag), address points inside building outlines, nearest outline within 15 m, and Nominatim geocoding for the remainder.",
+    "assumptionsNote": "Items marked [ASSUMPTION] have not been verified against the official rules. See the AMCCRS list and Romanian seismic rules (P100-3, Law 212/2022) for the authoritative definitions.",
+    "notAffiliated": "This app is not affiliated with the city hall or AMCCRS.",
+    "reportIssue": "Report a wrong or missing building"
+  },
+  "footer": {
+    "disclaimer": "Disclaimer",
+    "sources": "Sources",
+    "attribution": "© OpenStreetMap contributors · OpenFreeMap"
+  },
+  "share": {
+    "disclaimer": "Official list data. Not safety advice."
+  }
+}

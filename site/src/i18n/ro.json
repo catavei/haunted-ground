@@ -1,0 +1,112 @@
+{
+  "app": {
+    "title": "Haunted Ground"
+  },
+  "a11y": {
+    "skipToContent": "Sari la conținut"
+  },
+  "nav": {
+    "tour": "Tur bântuit",
+    "sources": "Surse",
+    "disclaimer": "Avertisment",
+    "language": "EN",
+    "calm": "Mod calm"
+  },
+  "search": {
+    "label": "Caută adresă",
+    "placeholder": "Stradă și număr…",
+    "noResults": "Nu se află pe lista AMCCRS. Asta nu înseamnă că imobilul este sigur. Vezi ce poți face.",
+    "unlocated": "Nu am putut plasa această adresă pe hartă."
+  },
+  "map": {
+    "tileError": "Harta nu s-a putut încărca. Folosiți caseta de căutare pentru a găsi imobile după adresă.",
+    "locatedCount": "{located} din {total} imobile listate, localizate pe hartă."
+  },
+  "card": {
+    "close": "Închide",
+    "classLabel": "Clasă de risc",
+    "levelLabel": "Nivel de bântuire",
+    "sourceLabel": "Sursă",
+    "yearLabel": "An conform AMCCRS",
+    "yearUnknown": "An necunoscut",
+    "heightLabel": "Regim de înălțime",
+    "flatsLabel": "Număr apartamente",
+    "locationApproximate": "Localizare aproximativă",
+    "unlocated": "Nu am putut plasa această adresă pe hartă.",
+    "disclaimerLink": "Avertisment",
+    "shareButton": "Distribuie",
+    "amccrsLink": "Vezi pe lista AMCCRS"
+  },
+  "tour": {
+    "close": "Închide",
+    "title": "Tur bântuit",
+    "nearMe": "Lângă mine",
+    "bySector": "După sector",
+    "locationDenied": "Accesul la locație a fost refuzat. Alege un sector.",
+    "locationNotStored": "Locația ta este folosită doar în browser și nu este trimisă nicăieri.",
+    "disclaimer": "Acest tur este doar pentru curiozitate, nu pentru a decide unde să locuiești sau să cumperi.",
+    "stop": "Oprire {n}",
+    "reason": "{class} · {flats} apartamente · construit în {year}",
+    "next": "Oprire următoare",
+    "prev": "Oprire anterioară"
+  },
+  "levels": {
+    "restless": {
+      "name": "Agitat",
+      "plain": "Clasa RsI / Categoria de urgență"
+    },
+    "uneasy": {
+      "name": "Neliniștit",
+      "plain": "Clasa RsII"
+    },
+    "stirring": {
+      "name": "Se foiește",
+      "plain": "Clasa RsIII"
+    },
+    "whispers": {
+      "name": "Șoapte",
+      "plain": "Clasa RsIV"
+    },
+    "mended": {
+      "name": "Consolidat",
+      "plain": "Consolidat (conform listei)"
+    },
+    "unrated": {
+      "name": "Neevaluat",
+      "plain": "Pe listă, fără clasă"
+    },
+    "unlisted": {
+      "name": "Nu e pe listă",
+      "plain": "Nu e pe lista AMCCRS"
+    }
+  },
+  "legend": {
+    "title": "Niveluri de bântuire",
+    "notOnList": "Nu e pe listă. Nu este o afirmație de siguranță.",
+    "locatedLine": "{located} din {total} localizate"
+  },
+  "disclaimer": {
+    "banner": "Aceasta este o vizualizare tematică a datelor publice. Nu este o evaluare oficială, tehnică sau juridică și nu reprezintă consultanță privind siguranța. Un imobil absent de pe listă nu înseamnă că este sigur. Consultați un expert tehnic atestat înainte de a cumpăra sau închiria.",
+    "dismiss": "Închide",
+    "link": "Avertisment complet"
+  },
+  "sources": {
+    "title": "Surse",
+    "licence": "Licență",
+    "attribution": "Atribuire",
+    "dataDate": "Date la",
+    "termsNotPublished": "Termeni nepublicați",
+    "matchingExplanation": "Adresele au fost asociate cu locații pe hartă folosind etichete OSM (tag pe contur), puncte de adresă în interiorul contururilor, cel mai apropiat contur în 15 m și geocodare Nominatim pentru restul.",
+    "assumptionsNote": "Elementele marcate [IPOTEZĂ] nu au fost verificate față de regulile oficiale. Consultați lista AMCCRS și normele seismice române (P100-3, Legea 212/2022) pentru definițiile autorizate.",
+    "notAffiliated": "Această aplicație nu este afiliată cu Primăria sau AMCCRS.",
+    "reportIssue": "Raportează un imobil greșit sau lipsă"
+  },
+  "footer": {
+    "disclaimer": "Avertisment",
+    "sources": "Surse",
+    "attribution": "© Contribuitori OpenStreetMap · OpenFreeMap"
+  },
+  "share": {
+    "disclaimer": "Date din lista oficială. Nu este consultanță privind siguranța."
+  }
+}

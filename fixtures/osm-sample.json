@@ -1,0 +1,120 @@
+{
+  "_comment": "OSM fixture — hand-crafted Overpass-shaped data for a few Bucharest addresses that appear in amccrs-30.json. Coordinates are approximate; not real survey data.",
+  "_source": "OpenStreetMap contributors, ODbL 1.0",
+  "version": 0.6,
+  "elements": [
+    {
+      "type": "way",
+      "id": 100000001,
+      "tags": {
+        "building": "apartments",
+        "addr:street": "Calea Văcărești",
+        "addr:housenumber": "14"
+      },
+      "geometry": [
+        { "lat": 44.4190, "lon": 26.1030 },
+        { "lat": 44.4192, "lon": 26.1030 },
+        { "lat": 44.4192, "lon": 26.1034 },
+        { "lat": 44.4190, "lon": 26.1034 },
+        { "lat": 44.4190, "lon": 26.1030 }
+      ]
+    },
+    {
+      "type": "way",
+      "id": 100000002,
+      "tags": {
+        "building": "apartments",
+        "addr:street": "Bulevardul Magheru",
+        "addr:housenumber": "7"
+      },
+      "geometry": [
+        { "lat": 44.4435, "lon": 26.0968 },
+        { "lat": 44.4437, "lon": 26.0968 },
+        { "lat": 44.4437, "lon": 26.0972 },
+        { "lat": 44.4435, "lon": 26.0972 },
+        { "lat": 44.4435, "lon": 26.0968 }
+      ]
+    },
+    {
+      "type": "way",
+      "id": 100000003,
+      "tags": {
+        "building": "yes"
+      },
+      "geometry": [
+        { "lat": 44.4442, "lon": 26.1010 },
+        { "lat": 44.4444, "lon": 26.1010 },
+        { "lat": 44.4444, "lon": 26.1014 },
+        { "lat": 44.4442, "lon": 26.1014 },
+        { "lat": 44.4442, "lon": 26.1010 }
+      ]
+    },
+    {
+      "type": "node",
+      "id": 200000001,
+      "lat": 44.4443,
+      "lon": 26.1012,
+      "tags": {
+        "addr:street": "Strada Batiștei",
+        "addr:housenumber": "22"
+      }
+    },
+    {
+      "type": "node",
+      "id": 200000002,
+      "lat": 44.4502,
+      "lon": 26.0921,
+      "tags": {
+        "addr:street": "Strada Polonă",
+        "addr:housenumber": "5"
+      }
+    },
+    {
+      "type": "way",
+      "id": 100000004,
+      "tags": {
+        "building": "apartments",
+        "ref:RO:lmi": "B-II-m-B-18200"
+      },
+      "geometry": [
+        { "lat": 44.4505, "lon": 26.0918 },
+        { "lat": 44.4507, "lon": 26.0918 },
+        { "lat": 44.4507, "lon": 26.0924 },
+        { "lat": 44.4505, "lon": 26.0924 },
+        { "lat": 44.4505, "lon": 26.0918 }
+      ]
+    },
+    {
+      "type": "way",
+      "id": 100000005,
+      "tags": {
+        "building": "apartments",
+        "addr:street": "Șoseaua Colentina",
+        "addr:housenumber": "101"
+      },
+      "geometry": [
+        { "lat": 44.4610, "lon": 26.1420 },
+        { "lat": 44.4612, "lon": 26.1420 },
+        { "lat": 44.4612, "lon": 26.1425 },
+        { "lat": 44.4610, "lon": 26.1425 },
+        { "lat": 44.4610, "lon": 26.1420 }
+      ]
+    },
+    {
+      "type": "way",
+      "id": 100000006,
+      "tags": {
+        "building": "apartments",
+        "addr:street": "Strada Mendeleev",
+        "addr:housenumber": "9"
+      },
+      "geometry": [
+        { "lat": 44.4455, "lon": 26.0925 },
+        { "lat": 44.4457, "lon": 26.0925 },
+        { "lat": 44.4457, "lon": 26.0930 },
+        { "lat": 44.4455, "lon": 26.0930 },
+        { "lat": 44.4455, "lon": 26.0925 }
+      ]
+    }
+  ]
+}

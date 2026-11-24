@@ -3,10 +3,81 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Haunted Ground</title>
+    <title>Haunted Ground — Bucharest seismic risk map</title>
+    <meta name="description" content="A Halloween-themed map of Bucharest buildings on the official seismic risk list. Spooky look, accurate facts." />
+    <!-- Open Graph (populated with static values; per-building tags added in task 11) -->
+    <meta property="og:title" content="Haunted Ground" />
+    <meta property="og:description" content="Bucharest buildings on the official seismic risk list." />
+    <meta property="og:type" content="website" />
   </head>
   <body>
-    <div id="app"></div>
+    <!-- Skip link for keyboard users -->
+    <a class="skip-link" href="#main-content" data-i18n="a11y.skipToContent">Skip to content</a>
+
+    <div id="app">
+      <!-- Header -->
+      <header role="banner">
+        <h1 data-i18n="app.title">Haunted Ground</h1>
+        <nav aria-label="Site navigation">
+          <button id="btn-tour"      data-i18n="nav.tour">Haunted tour</button>
+          <button id="btn-sources"   data-i18n="nav.sources">Sources</button>
+          <button id="btn-disclaimer" data-i18n="nav.disclaimer">Disclaimer</button>
+          <button id="btn-lang"      aria-label="Switch language" data-i18n="nav.language">EN / RO</button>
+          <button id="btn-calm"      aria-pressed="false" data-i18n="nav.calm">Calm mode</button>
+        </nav>
+      </header>
+
+      <!-- Main content area -->
+      <main id="main-content">
+        <!-- Search box -->
+        <div id="search-container" role="search">
+          <label for="search-input" data-i18n="search.label">Search address</label>
+          <input
+            id="search-input"
+            type="search"
+            autocomplete="off"
+            aria-autocomplete="list"
+            aria-controls="search-listbox"
+            aria-expanded="false"
+            data-i18n-placeholder="search.placeholder"
+          />
+          <ul id="search-listbox" role="listbox" aria-label="Suggestions" hidden></ul>
+        </div>
+
+        <!-- Map container -->
+        <div id="map-container">
+          <div id="map" aria-label="Bucharest seismic risk map" role="application"></div>
+
+          <!-- Tile-failure banner — shown by map.ts when tiles error -->
+          <div id="tile-error" role="alert" aria-live="polite" hidden>
+            <span data-i18n="map.tileError">Map tiles could not load. Use the search box to look up buildings by address.</span>
+          </div>
+        </div>
+
+        <!-- Building card panel (populated by card.ts) -->
+        <aside id="card-panel" aria-label="Building details" hidden>
+          <button id="card-close" data-i18n="card.close">Close</button>
+          <div id="card-content"></div>
+        </aside>
+
+        <!-- Tour panel (populated by tour.ts) -->
+        <aside id="tour-panel" aria-label="Haunted tour" hidden>
+          <button id="tour-close" data-i18n="tour.close">Close</button>
+          <div id="tour-content"></div>
+        </aside>
+      </main>
+
+      <!-- Live region for screen-reader announcements -->
+      <div id="live-region" role="status" aria-live="polite" aria-atomic="true" class="sr-only"></div>
+
+      <!-- Footer -->
+      <footer role="contentinfo">
+        <a href="#disclaimer" data-i18n="footer.disclaimer">Disclaimer</a>
+        <a href="#sources"    data-i18n="footer.sources">Sources</a>
+        <span data-i18n="footer.attribution">© OpenStreetMap contributors · OpenFreeMap</span>
+      </footer>
+    </div>
+
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
